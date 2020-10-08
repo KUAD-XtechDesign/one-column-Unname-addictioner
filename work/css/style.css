@@ -1,7 +1,13 @@
-
-body{
+@font-face {
+    font-family: "wonder";
+    src: url("../wonder.woff2") format("woff2"),
+         url("../wonder.woff") format("woff");
+  }
+    
+  body{
     background-color: #000000;
     color: #ff0000;
+    font-family: "wonder"
   }
   
   .wrapper{
@@ -26,7 +32,7 @@ body{
     display: none;
     padding: 30px;
   }
-  
+  S
   .close_button{
     display: inline-block;
     padding: 10px;
@@ -39,7 +45,7 @@ body{
   
   .img_button{
     transition: 0.5s all;
-    cursor: pointer;
+    cursor: pointer;S
   }
   
   /* 横並び追加 */
